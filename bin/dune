@@ -1,0 +1,5 @@
+(executable
+  (name bin)
+  (public_name menhir_sedlex_example)
+  (libraries console.lib lib)
+)

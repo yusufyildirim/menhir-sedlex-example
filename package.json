@@ -1,0 +1,19 @@
+{
+  "name": "menhir_sedlex_example",
+  "esy": {
+    "build": "refmterr dune build -p #{self.name}",
+    "run": "esy x #{self.name}"
+  },
+  "dependencies": {
+    "@opam/dune": "*",
+    "@opam/menhir": "20200211",
+    "@opam/reason": "3.6.0",
+    "@opam/sedlex": "2.1",
+    "@reason-native/console": "^0.1.0"
+  },
+  "devDependencies": {
+    "ocaml": "~4.8.1000",
+    "@opam/merlin": "*",
+    "refmterr": "*"
+  }
+}
